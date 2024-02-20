@@ -38,7 +38,6 @@ const Question = () => {
   
       let intervalId;
   
-      /*
       if (running && seconds > 0) {
         intervalId = setInterval(() => {
           setSeconds((prevSeconds) => {
@@ -48,7 +47,6 @@ const Question = () => {
           });
         }, 1000); // Update the timer every 1000ms (1 second)
       }
-      */
   
       return () => {
         clearInterval(intervalId);
